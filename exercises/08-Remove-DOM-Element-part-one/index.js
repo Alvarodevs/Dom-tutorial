@@ -1,1 +1,2 @@
-//your code here
+var element = document.querySelector("#secondElement");
+element.parentNode.removeChild(element);

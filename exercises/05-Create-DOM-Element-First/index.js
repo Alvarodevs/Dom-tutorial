@@ -2,5 +2,7 @@ var elem = document.createElement("H1");
 elem.innerHTML = "Hello World";
 document.querySelector("#myDiv").appendChild(elem);
 
-//Your code here
-// Don'change the code above
+var newParag = document.createElement("p");
+newParag.innerHTML = "Hello World";
+newParag.style.background = "yellow";
+document.body.appendChild(newParag);
